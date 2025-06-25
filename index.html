@@ -10,43 +10,73 @@
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       background-color: #ffffff;
       color: #000000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+
     header {
       background-color: #000000;
-      color: #ffffff;
+      width: 100%;
       padding: 2rem 1rem;
       text-align: center;
     }
+
     header img {
-      max-width: 200px;
+      max-width: 300px;
+      width: 90%;
       height: auto;
       margin-bottom: 1rem;
     }
-    main {
-      padding: 2rem;
+
+    .tagline {
+      color: #d1bfa6;
+      font-size: 1.2rem;
+      margin-top: -0.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
     }
+
+    main {
+      max-width: 800px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    main h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
     section.contact {
       background-color: #f5f1e6;
       padding: 2rem;
       margin-top: 2rem;
+      border-radius: 8px;
+      text-align: center;
     }
+
     section.contact h2 {
       font-size: 1.8rem;
       margin-bottom: 1rem;
     }
+
     section.contact p {
       font-size: 1.1rem;
       line-height: 1.6;
     }
+
     section.contact a {
       color: #000000;
       text-decoration: underline;
     }
+
     footer {
       background-color: #000000;
       color: #ffffff;
       text-align: center;
       padding: 1rem;
+      width: 100%;
       margin-top: 2rem;
     }
   </style>
@@ -54,13 +84,16 @@
 <body>
 
   <header>
-    <img src="Asset%201@2x.png" alt="MJ Logo" />
-    <h1>Moving by MJ</h1>
-    <p>Your trusted moving helper in Texas</p>
+    <img src="Asset%201@3x.png" alt="MJ Logo" />
+    <div class="tagline">Moving Your Business Forward</div>
   </header>
 
   <main>
-    <p>Welcome to Moving by MJ. We provide affordable, reliable, and professional moving help for individuals and families in San Antonio and surrounding areas.</p>
+    <h1>Welcome to Moving by MJ</h1>
+    <p>
+      We specialize in providing efficient, professional, and discreet moving support for commercial and business clients across Texas. 
+      Whether you're relocating your office, staging a commercial space, or need logistical moving help—Moving by MJ is your trusted partner.
+    </p>
   </main>
 
   <section class="contact">
