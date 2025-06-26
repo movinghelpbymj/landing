@@ -2,127 +2,120 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Commercial moving services in San Antonio. Office packing, furniture setup, and IT equipment relocation by Moving by MJ.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Moving by MJ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: sans-serif;
-      background-color: #fff;
+      font-family: 'Sans-Serif', Arial, sans-serif;
+      background-color: #fdfaf5;
       color: #000;
       text-align: center;
     }
 
     header {
-      background-color: #d1b99a; /* beige */
-      padding: 2rem 1rem;
-    }
-
-    header img {
-      max-width: 320px;
-      height: auto;
+      background-color: #fff;
+      padding: 1rem 0;
     }
 
     header h1 {
-      font-size: 2.5rem;
-      margin: 1rem 0 0;
+      font-family: 'Stint Ultra Condensed', serif;
+      font-size: 3rem;
+      margin: 1rem 0 0.5rem;
+      color: #000;
     }
 
-    main {
-      max-width: 900px;
-      margin: auto;
+    .logo-container {
+      margin: 1rem auto;
+      max-width: 300px;
+    }
+
+    .logo-container img {
+      width: 100%;
+      height: auto;
+    }
+
+    .welcome {
+      background-color: #d1bfa5;
+      padding: 2rem;
+      margin: 1rem auto;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+
+    .welcome h2 {
+      margin-top: 0;
+    }
+
+    .services {
       padding: 2rem 1rem;
+      background-color: #fff;
     }
 
-    section {
-      margin-bottom: 3rem;
-    }
-
-    h2 {
-      font-size: 2rem;
+    .services h2 {
       margin-bottom: 1rem;
     }
 
-    .services h3 {
-      font-size: 1.3rem;
-      margin-bottom: 0.5rem;
+    .services ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1rem;
     }
 
-    .services p {
-      margin-bottom: 2rem;
-      font-size: 1rem;
+    .services ul li {
+      margin: 0.5rem 0;
     }
 
-    .cta a {
-      background-color: #000;
-      color: #fff;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      border-radius: 6px;
-      display: inline-block;
-      font-weight: bold;
-      margin-top: 1rem;
+    .contact {
+      background-color: #d1bfa5;
+      padding: 2rem;
     }
 
-    .contact p a {
+    .contact h2 {
+      margin-top: 0;
+    }
+
+    .contact a {
       color: #000;
       text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
     }
 
     footer {
-      background-color: #f1f1f1;
-      padding: 1rem;
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 0;
       font-size: 0.9rem;
     }
   </style>
 </head>
-
 <body>
+
   <header>
-    <img src="Asset%201@3x.png" alt="Moving by MJ Logo" />
     <h1>Moving by MJ</h1>
+    <div class="logo-container">
+      <img src="Asset%201@3x.png" alt="MJ Logo" />
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Welcome</h2>
-      <p>
-        At Moving by MJ, we specialize in commercial moving solutions tailored to the needs of busy companies. Whether you're relocating an office, updating your tech setup, or moving departments across town — our team ensures a seamless and professional experience from start to finish.
-      </p>
-    </section>
+  <section class="welcome">
+    <h2>Welcome</h2>
+    <p>We specialize in helping commercial clients move efficiently and professionally. Whether you're relocating a small office or managing a large corporate transition, Moving by MJ ensures a seamless experience.</p>
+  </section>
 
-    <section class="services">
-      <h2>Our Commercial Moving Services</h2>
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Packing and unpacking office contents</li>
+      <li>Arranging and rebuilding furniture</li>
+      <li>IT equipment handling and setup</li>
+    </ul>
+  </section>
 
-      <h3>Office Packing & Setup</h3>
-      <p>We carefully pack and unpack your office items to reduce disruption and help your team settle in quickly.</p>
-
-      <h3>Furniture Assembly & Layout</h3>
-      <p>Desks, cubicles, and conference rooms — we break it down, move it safely, and rebuild it to match your layout.</p>
-
-      <h3>Workstation & Tech Equipment Setup</h3>
-      <p>We handle computers, monitors, and cables with care — ensuring safe transport and clean, organized setups.</p>
-
-      <h3>Flexible Scheduling</h3>
-      <p>Evenings, weekends, or holidays — we move when your team doesn’t, to minimize disruption.</p>
-    </section>
-
-    <section class="cta">
-      <h2>Let’s Get Moving</h2>
-      <p>Ready to plan your commercial move? We’ll make it easy.</p>
-      <a href="mailto:info@movingbymj.com?subject=Commercial Move Inquiry">Get a Free Quote</a>
-    </section>
-
-    <section class="contact">
-      <h2>Contact Us</h2>
-      <p><strong>Phone:</strong> <a href="tel:+12108764383">210-876-4383</a></p>
-      <p><strong>Email:</strong> <a href="mailto:info@movingbymj.com">info@movingbymj.com</a></p>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 Moving by MJ. All rights reserved.
-  </footer>
-</body>
-</html>
+  <section class="contact">
+    <h
