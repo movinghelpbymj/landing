@@ -21,7 +21,7 @@
 
     header h1 {
       font-family: 'Impact', 'Arial Black', sans-serif;
-      color: #d1b89f; /* Beige from your logo */
+      color: #d1b89f;
       margin: 0;
       font-size: 2.5em;
     }
@@ -30,7 +30,7 @@
       max-width: 300px;
       width: 90%;
       height: auto;
-      margin: 1em auto;
+      margin: 1em auto 0.5em;
       display: block;
     }
 
@@ -42,6 +42,22 @@
 
     .welcome {
       font-size: 1.25em;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      padding: 0.75em 1.5em;
+      margin-top: 1.5em;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #333;
     }
 
     .services h2,
@@ -74,7 +90,6 @@
       margin-top: 2em;
     }
 
-    /* Responsive tweaks */
     @media (max-width: 600px) {
       header h1 {
         font-size: 2em;
@@ -86,6 +101,10 @@
 
       ul {
         font-size: 1em;
+      }
+
+      .cta-button {
+        width: 80%;
       }
 
       .contact a {
@@ -101,18 +120,21 @@
     <h1>Moving By MJ</h1>
   </header>
 
-  <img src="Asset%201@3x.png" alt="MJ Logo" class="logo" />
+  <img src="logo.png" alt="MJ Logo" class="logo" />
 
   <section class="welcome">
-    <p>Welcome to Moving By MJ — your trusted partner in seamless commercial transitions. Whether you're relocating offices, rebuilding workspaces, or ensuring secure IT transport, we're here to move your business forward.</p>
+    <p>Welcome to Moving By MJ — your trusted partner in seamless commercial transitions. Whether you're relocating offices, rebuilding workspaces, or handling sensitive IT equipment, we're here to move your business forward.</p>
+    <a href="mailto:info@movingbymj.com" class="cta-button">Request a Quote</a>
   </section>
 
   <section class="services">
     <h2>Our Services</h2>
     <ul>
-      <li>Packing & Unpacking Office Spaces</li>
-      <li>Arranging & Rebuilding Furniture</li>
-      <li>IT Equipment Handling & Setup</li>
+      <li>Professional Office Packing & Unpacking</li>
+      <li>Furniture Disassembly & Reassembly</li>
+      <li>IT Equipment Transport & Handling</li>
+      <li>Workstation Setup & Arrangement</li>
+      <li>Commercial Relocation Logistics</li>
     </ul>
   </section>
 
